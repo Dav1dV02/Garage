@@ -9,8 +9,7 @@
 
     <title>Read</title>
 </head>
-<body>
-<div class="readonly">
+<body><div class="readonly3">
 <h1>Alle uw klant</h1>
 <p>Dit zijn alle gegevens uit de databaae over uw klanten</p>
 
@@ -18,27 +17,25 @@
 
 require_once "Gar-Con.php";
 
-$select = $conn->prepare("SELECT * FROM auto");
+$select = $conn->prepare("SELECT * FROM klant");
 $select->execute();
 
 echo "<table>";
 echo "<tr>";
-echo "<th>ID</th>";
-echo "<th>Kenteken</th>";
-echo "<th>Merk</th>";
-echo "<th>Type</th>";
-echo "<th>Km-stand</th>";
+echo "<th>ID<th>";
+echo "<th>Naam<th>";
+echo "<th>Adres<th>";
+echo "<th>Postcode<th>";
+echo "<th>Plaats<th>";
 echo "</tr>";
 foreach ($select as $rij)
 {
-
-
     echo "<tr>";
-    echo "<td>" . $rij["klant_id"] . "</td>";
-    echo "<td>" . $rij["autokenteken"] . "</td>";
-    echo "<td>" . $rij["automerk"] . "</td>";
-    echo "<td>" . $rij["autotype"] . "</td>";
-    echo "<td>" . $rij["autokmstand"] . "</td>";
+    echo "<td>" . $rij["id"] . "</td>";
+    echo "<td>" . $rij["klantnaam"] . "</td>";
+    echo "<td>" . $rij["klantadres"] . "</td>";
+    echo "<td>" . $rij["klantpostcode"] . "</td>";
+    echo "<td>" . $rij["klantplaats"] . "</td>";
     echo "</tr>";
 }
 echo "</table>";

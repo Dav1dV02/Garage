@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    background-color: black;
+}
+
+.inlog{
+    color: white;
+}
+.inlog2{
+    color: white;
+}
+.menu{
+    color: white;
+}
+a{
+    color: white;
+}
+
+a:hover,
+a:focus{
+
+    color: gray;
+}
+
+.create{
+    color:white;
+}
+.createkl{
+    color:white;
+}
+
+.create-2_0{
+    color: white;
+}
+.crauto{
+    color:white;
+}
+
+.zoek{
+    color:white;
+}
+.zoekkl2{
+    color: white;
+}
+.zoek2{
+    color:white;
+}
+.zoauto{
+    color:white;
+}
+.update{
+    color:white;
+}
+.upkl2{
+    color:white;
+}
+.upkl3{
+    color:white;
+}
+
+.delete{
+    color:white;
+}
+.delkl2{
+    color:white;
+}
+.delkl3{
+    color:white;
+}
+
+
+.upauto{
+    color:white;
+}
+.upauto2{
+    color:white;
+}
+.upauto3{
+    color:white;
+}
+
+
+.zoauto{
+    color:white;
+}
+/*auto delete*/
+.delauto{
+    color:white;
+}
+.delauto2{
+    color: white;
+}
+.del3{
+     color: white;
+ }
+.auto-klant{
+    color:white;
+}
+.read{
+    color:white;
+}
+.readauto{
+    color:white;
+}
+.kill{
+    color:white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}{
+    color: black;
+;}
