@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  background-color: black; }
+
+.inlog, .inlog2, .menu, a, .create, .createkl,
+.create-2_0, .crauto, .zoek, .zoekkl2, .zoek2,
+.zoek2, .zoauto, .update, .upkl2, .upkl3, .delete,
+.delkl2, .delkl3, .upauto, .upauto2, .upauto3,
+.zoauto, .delauto, .delauto2, .del3, .auto-klant,
+.read, .readauto, .kill ,.readonly,.readonly2,.readonly3{
+  color: white; }
+
+a:hover,
+a:focus {
+  color: gray; }
+
+table, th, td {
+  border: 1px solid white;
+    border-collapse: collapse;
+}
+/*# sourceMappingURL=style.css.map */
